@@ -1,11 +1,11 @@
 # MADE BY MakeMake
 CC = gcc
-SRC = cat.c
-OUT = cat
-FLAGS = -Wall -Wextra
+SRC = main.c
+OUT = main
+FLAGS = 
 
-all: cat
-cat:
+all: main
+main:
 	$(CC) $(FLAGS) $(SRC) -o $(OUT)
 
 .PHONY: clean
