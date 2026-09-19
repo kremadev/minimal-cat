@@ -12,7 +12,7 @@ int main(int argc, char *argv[]) {
                     break;
             }
         } else {
-            FILE *file = fopen(argv[1], "r");
+            FILE *file = fopen(argv[i], "r");
             if (file == NULL) {
                 printf("Invalid file name.\n");
                 return 1;
